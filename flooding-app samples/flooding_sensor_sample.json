@@ -1,0 +1,14 @@
+{
+    "@context" : "http://purl.org/smart-cities/living-lab/vocab",
+    "@type" : "ssn:Observation",
+    "_id": "XXXXXafe5a8ecc2ed126e867",
+    "sensorId": "S04",
+    "severity": "Low",
+    "timestamp": "1632795390.706117",
+    "date": "2019-08-27 12:16:30",
+    "location": {
+      "lat": 31.76771355145084,
+      "lon": -106.50184997506044
+    },
+    "imageName": "S04_2019-08-27_12:16:30.jpg"
+}

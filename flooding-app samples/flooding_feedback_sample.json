@@ -1,0 +1,10 @@
+{
+  "@context" : "http://purl.org/smart-cities/living-lab/vocab",
+  "@type" : "sch:Review",
+  "_id": "5f35b5e33e03034e98f2c2e5",
+  "severity": "High",
+  "credibility": 5,
+  "description": "Flooding intensifies at parking lot area",
+  "date": "2020-08-13 15:51:31",
+  "imageName": "20190303_144535.jpg"
+}

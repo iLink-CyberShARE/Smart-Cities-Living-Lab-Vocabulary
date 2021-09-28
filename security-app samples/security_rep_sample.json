@@ -1,0 +1,18 @@
+{
+  "@context" : "http://purl.org/smart-cities/living-lab/vocab",
+  "@type" : "sch:Report",
+  "_id": "XXXXXb984ca1110b3c226500",
+  "categoryID": 3,
+  "latitude": "31.765686761140625",
+  "longitude": "-106.50160432646082",
+  "timestamp": "1575660438714",
+  "incident": 3,
+  "description": "One street light in the parking lot is not working",
+  "imageName": "20191206_122718.jpg",
+  "hasConfirmed": true,
+  "hasDenied": false,
+  "confirmedBy" : 7,
+  "deniedBy": 0,
+  "severityWeight": 2
+}
+

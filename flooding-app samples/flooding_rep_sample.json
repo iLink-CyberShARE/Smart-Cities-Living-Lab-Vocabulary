@@ -1,0 +1,14 @@
+{
+  "@context" : "http://purl.org/smart-cities/living-lab/vocab",
+  "@type" : "sch:Report",
+  "_id": "5e66947208b6562ec4e933a2",
+  "userID": "XXXXX",
+  "severity": "Medium",
+  "description": "Sample report - Flooding in the parking lot",
+  "location": {
+    "lat": 31.7678113,
+    "lon": -106.5022799
+  },
+  "date": "2020-03-09 13:09:38",
+  "imageName": "20200303_144534.jpg"
+}

@@ -1,0 +1,249 @@
+{
+    "@context": {
+        "@base": "http://purl.org/smart-cities/living-lab/vocab#",
+        "@vocab": "http://purl.org/smart-cities/living-lab/vocab#",
+        "cc": "http://creativecommons.org/ns#",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "isweb": "http://ontology.cybershare.utep.edu/ELSEWeb/elseweb-data.owl#",
+        "oboe": "http://ecoinformatics.org/oboe/oboe.1.1/oboe-core.owl#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "sch": "http://schema.org/",
+        "scllv-meta": "http://ontology.cybershare.utep.edu/smart-cities/scllv-meta#",
+        "sio": "http://semanticscience.org/resource/",
+        "ssn": "http://purl.oclc.org/NET/ssnx/ssn#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "_id": {
+            "@id": "sio:SIO_000675",
+            "@type": "xsd:string"
+        },
+        "address": {
+            "@id": "sch:Place",
+            "@type": "sch:PostalAddress"
+        },
+        "admin": {
+            "@id": "sch:Person",
+            "@type": "@id"
+        },
+        "assembledBy": {
+            "@id": "scllv-meta:assembledBy",
+            "@type": "xsd:string"
+        },
+        "boardName": {
+            "@id": "scllv-meta:board",
+            "@type": "xsd:string"
+        },
+        "categoryID": {
+            "@id": "sch:category",
+            "@type": "xsd:integer"
+        },
+        "cc:license": {
+            "@type": "@id"
+        },
+        "cc:attributionURL": {
+            "@type": "@id"
+        },
+        "characteristic": {
+            "@id": "isweb:Characteristic",
+            "@type": "xsd:string"
+        },
+        "coll_location": {
+            "@id": "sch:location",
+            "@type": "sch:Place"
+        },
+        "comment": {
+            "@id": "sch:comment", 
+			"@type": "xsd:string"
+        },
+        "country": {
+            "@id": "sch:Country",
+            "@type": "xsd:string"
+        },
+        "confirmedBy": {
+            "@id": "sch:reviewCount",
+            "@type": "xsd:integer"
+        },
+        "credibility": {
+            "@id": "sch:Rating",
+            "@type": "xsd:integer"
+        },
+        "deniedBy": {
+            "@id": "sch:reviewCount",
+            "@type": "xsd:integer"
+        },
+        "dataset": {
+            "@id": "dcat:Dataset",
+            "@type": "@id"
+        },
+        "datasheet": {
+            "@id": "ssn:SensorDataSheet",
+            "@type": "xsd:anyURI"
+        },
+        "date": {
+            "@id": "sch:DateTime",
+            "@type": "xsd:DateTime"
+        },
+        "description": {
+            "@id": "sch:description",
+            "@type": "xsd:string"
+        },
+        "email": {
+            "@id": "sch:email",
+            "@type": "xsd:string"
+        },
+        "EndDate": {
+            "@id": "sch:endDate",
+            "@type": "xsd:DateTime"
+        },
+        "entity": {
+            "@id": "oboe:Entity",
+            "@type": "xsd:string"
+        },
+        "error": {
+            "@id": "sch:error",
+            "@type": "xsd:string"
+        },
+        "hasConfirmed": {
+            "@id" : "sch:value",
+            "@type" : "xsd:boolean"
+        },
+        "hasDenied": {
+            "@id" : "sch:value",
+            "@type" : "xsd:boolean"
+        },
+        "image": {
+            "@id": "sch:image",
+            "@type": "sch:URL"
+        },
+        "imageName": {
+            "@id": "sch:image",
+            "@type": "sch:URL"
+        },
+        "incident": {
+            "@id": "sch:Event",
+            "@type": "xsd:integer"
+        },
+        "installDate": {
+            "@id": "sch:dateCreated",
+            "@type": "sch:Date"
+        },
+        "label": {
+            "@id": "rdfs:label",
+            "@language": "en"
+        },
+        "lat": {
+            "@id": "sch:latitude",
+            "@type": "sch:GeoCoordinates"
+        },
+        "latitude": {
+            "@id": "sch:latitude",
+            "@type": "sch:GeoCoordinates"
+        },
+        "levels": {
+            "@id": "ssn:ObservationValue",
+            "@type": "xsd:string"
+        },
+        "location": {
+            "@id": "sch:location",
+            "@type": "sch:Place"
+        },
+        "lon": {
+            "@id": "sch:longitude",
+            "@type": "sch:GeoCoordinates"
+        },
+        "longitude": {
+            "@id": "sch:longitude",
+            "@type": "sch:GeoCoordinates"
+        },
+        "macAddress": {
+            "@id": "scllv-meta:macAddress",
+            "@type": "xsd:string"
+        },
+        "name": {
+            "@id": "sch:name",
+            "@type": "xsd:string"
+        },
+        "observes": {
+            "@id": "ssn:observes",
+            "@type": "xsd:string"
+        },
+        "partName": {
+            "@id": "scllv-meta:partName",
+            "@type": "xsd:string"
+        },
+        "protocol": {
+            "@id": "scllv-meta:protocol",
+            "@type": "xsd:string"
+        },
+        "sensorId": {
+            "@id": "ssn:Sensor",
+            "@type": "xsd:string"
+        },
+        "sensors": {
+            "@id": "ssn:SensingDevice",
+            "@type": "@id"
+        },
+        "serialNumber": {
+            "@id": "scllv-meta:serialNumber",
+            "@type": "xsd:string"
+        },
+        "severity": {
+            "@id": "ssn:ObservationValue",
+            "@type": "xsd:string"
+        },
+        "severityWeight": {
+            "@id": "sch:Rating",
+            "@type": "xsd:integer"
+        },
+        "sponsor": {
+            "@id": "sch:sponsor", 
+            "@type": "sch:Organization"
+        },
+        "StartDate": {
+            "@id": "sch:startDate", 
+            "@type": "xsd:DateTime"
+        },
+        "timestamp": {
+            "@id": "sch:DateTime",
+            "@type": "xsd:DateTime"
+        },
+        "type": {
+            "@id": "scllv-meta:deviceType",
+            "@type": "xsd:string"
+        },
+        "unit": {
+            "@id": "sch:QuantitativeValue",
+            "@type": "sch:Number"
+        },
+        "userId": {
+            "@id": "sch:identifier",
+            "@type": "xsd:string"
+        },
+        "valMax": {
+            "@id": "sch:maxValue",
+            "@type": "sch:Number"
+        },
+        "valMin": {
+            "@id": "sch:minValue",
+            "@type": "sch:Number"
+        },
+        "variable": {
+            "@id": "ssn:MeasurementProperty",
+            "@type": "@id"
+        },
+        "wasgeneratedby": {
+            "@id": "ssn:SensingDevice",
+            "@type": "xsd:string"
+        }
+    },
+    "@id": "http://purl.org/smart-cities/living-lab/vocab",
+    "label": "Smart Cities Living Lab Vocabulary",
+    "comment": "A mapping of smart cities terms for sensor and crowdsourcing applications",
+    "ccterms:license": "http://creativecommons.org/licenses/by/4.0/",
+    "ccterms:attributionURL": "https://ires.cybershare.utep.edu/",
+    "dcterms:hasVersion": "2.0",
+    "dcterms:rights": "&#169copyright 2021",
+    "dcterms:publisher": "The University of Texas at El Paso",
+    "dcterms:contributor" : ["Edgar Escobedo", "Natalia Villanueva Rosales", "Luis A. Garnica", "Elisa Jimenez Todd"], 
+    "sponsor": "This material is based upon work supported by the National Science Foundation (NSF) under Grant No. 1658733 IRES: US-Mexico Interdisciplinary Collaboration for Smart Cities. This work used resources from Cyber-ShARE Center of Excellence, which is supported by NSF Grant number HRD-1242122. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the NSF."
+}
