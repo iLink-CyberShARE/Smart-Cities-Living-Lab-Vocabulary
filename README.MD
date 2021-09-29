@@ -5,6 +5,8 @@
 ## Description
 Semantic mappings of sensor and crowdsourcing data to standard widely-used vocabularies.
 
+This work is an extension of [https://github.com/cybershare/SCLL](https://github.com/cybershare/SCLL)
+
 ## Repository Content
 - flooding-app samples: Annotated data samples from the IRES Smart Flodding Alert System (Smart FAS) Android Mobile App prototype.
 - security-app samples: Annotated data samples from IRES Safe Community System (SCS) Android Mobile App prototype.
@@ -54,4 +56,3 @@ Smart Cities investigators and contributing participants.
 Attribution 4.0 International (CC BY 4.0) 
 [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)
 
-**Note**: This work is an extension of [https://github.com/cybershare/SCLL](https://github.com/cybershare/SCLL)
