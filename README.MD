@@ -49,7 +49,7 @@ This work is an extension of [https://github.com/cybershare/SCLL](https://github
 This material is based upon work supported by the National Science Foundation (NSF) under Grant No. 1658733 IRES: U.S.-Mexico Interdisciplinary Research Collaboration for Smart Cities. This work used resources from Cyber-ShARE Center of Excellence, which is supported by NSF Grant No. HRD-1242122. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the NSF.
 
 ## Copyright
-&#169; copyright 2018-2021, IRES: U.S.-Mexico Interdisciplinary Research Collaboration for
+&#169; 2018-2021, IRES: U.S.-Mexico Interdisciplinary Research Collaboration for
 Smart Cities investigators and contributing participants.
 
 ## License
